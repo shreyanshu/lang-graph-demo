@@ -1,0 +1,22 @@
+# secrets
+.env
+.env.local
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# editors
+.idea/
+.vscode/
+.ruff_cache/
+
+# generated artefacts
+*.sqlite
+*.sqlite3
+*.db
+*.png
+.checkpoints/

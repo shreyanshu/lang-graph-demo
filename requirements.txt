@@ -1,0 +1,17 @@
+# Core graph runtime
+langgraph>=1.0,<2.0
+
+# Higher-level agent helpers (create_agent, middleware) shipped with LangChain 1.x
+langchain>=1.0,<2.0
+
+# Google Gemini chat models
+langchain-google-genai>=4.0,<5.0
+
+# Optional: durable SQLite checkpointing (tutorial 05 shows it)
+langgraph-checkpoint-sqlite>=3.0,<4.0
+
+# Reading the API key from .env
+python-dotenv>=1.0
+
+# Web search tool used by the demo executor
+ddgs>=9.0
